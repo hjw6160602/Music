@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		781785E21B3AB9450006C098 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 781785E11B3AB9450006C098 /* Images.xcassets */; };
+		78AF67A91B66319400EF720C /* DRNRealTimeBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = 78AF67A61B66319400EF720C /* DRNRealTimeBlurView.m */; };
+		78AF67AA1B66319400EF720C /* UIImage+BoxBlur.m in Sources */ = {isa = PBXBuildFile; fileRef = 78AF67A81B66319400EF720C /* UIImage+BoxBlur.m */; };
 		78B235B01B65D1D100C2CA3E /* 泡沫.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 78B235AF1B65D1D100C2CA3E /* 泡沫.mp3 */; };
 		78F924631B5F76BF00251C25 /* AudioTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 78F924621B5F76BF00251C25 /* AudioTool.m */; };
 		78F924ED1B5F7F2700251C25 /* 传奇.lrc in Resources */ = {isa = PBXBuildFile; fileRef = 78F924C51B5F7F2700251C25 /* 传奇.lrc */; };
@@ -24,7 +26,6 @@
 		78F924F81B5F7F2700251C25 /* 简单爱.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 78F924D11B5F7F2700251C25 /* 简单爱.mp3 */; };
 		78F924F91B5F7F2700251C25 /* 小苹果.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 78F924D21B5F7F2700251C25 /* 小苹果.mp3 */; };
 		78F924FA1B5F7F2700251C25 /* I Want It That Way.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 78F924D31B5F7F2700251C25 /* I Want It That Way.mp3 */; };
-		78F924FB1B5F7F2700251C25 /* 泡沫.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 78F924D41B5F7F2700251C25 /* 泡沫.mp3 */; };
 		78F924FC1B5F7F2700251C25 /* 心碎了无痕.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 78F924D51B5F7F2700251C25 /* 心碎了无痕.mp3 */; };
 		78F924FD1B5F7F2700251C25 /* 瓦解.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 78F924D61B5F7F2700251C25 /* 瓦解.mp3 */; };
 		78F924FE1B5F7F2700251C25 /* 一千年以后.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 78F924D71B5F7F2700251C25 /* 一千年以后.mp3 */; };
@@ -54,8 +55,6 @@
 		78F9255F1B5FA2BC00251C25 /* LrcCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 78F9255C1B5FA2BC00251C25 /* LrcCell.m */; };
 		78F925601B5FA2BC00251C25 /* LrcView.m in Sources */ = {isa = PBXBuildFile; fileRef = 78F9255E1B5FA2BC00251C25 /* LrcView.m */; };
 		78F925631B5FA2FD00251C25 /* LrcLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 78F925621B5FA2FD00251C25 /* LrcLine.m */; };
-		78F925691B5FA36700251C25 /* DRNRealTimeBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = 78F925661B5FA36700251C25 /* DRNRealTimeBlurView.m */; };
-		78F9256A1B5FA36700251C25 /* UIImage+BoxBlur.m in Sources */ = {isa = PBXBuildFile; fileRef = 78F925681B5FA36700251C25 /* UIImage+BoxBlur.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -63,6 +62,10 @@
 		781785E11B3AB9450006C098 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		781785EF1B3AB9450006C098 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		781785F01B3AB9450006C098 /* ____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____Tests.m"; sourceTree = "<group>"; };
+		78AF67A51B66319400EF720C /* DRNRealTimeBlurView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRNRealTimeBlurView.h; sourceTree = "<group>"; };
+		78AF67A61B66319400EF720C /* DRNRealTimeBlurView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRNRealTimeBlurView.m; sourceTree = "<group>"; };
+		78AF67A71B66319400EF720C /* UIImage+BoxBlur.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+BoxBlur.h"; sourceTree = "<group>"; };
+		78AF67A81B66319400EF720C /* UIImage+BoxBlur.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+BoxBlur.m"; sourceTree = "<group>"; };
 		78B235AF1B65D1D100C2CA3E /* 泡沫.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "泡沫.mp3"; sourceTree = "<group>"; };
 		78F924611B5F76BF00251C25 /* AudioTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioTool.h; sourceTree = "<group>"; };
 		78F924621B5F76BF00251C25 /* AudioTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioTool.m; sourceTree = "<group>"; };
@@ -133,10 +136,6 @@
 		78F9255E1B5FA2BC00251C25 /* LrcView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LrcView.m; sourceTree = "<group>"; };
 		78F925611B5FA2FD00251C25 /* LrcLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LrcLine.h; sourceTree = "<group>"; };
 		78F925621B5FA2FD00251C25 /* LrcLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LrcLine.m; sourceTree = "<group>"; };
-		78F925651B5FA36700251C25 /* DRNRealTimeBlurView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRNRealTimeBlurView.h; sourceTree = "<group>"; };
-		78F925661B5FA36700251C25 /* DRNRealTimeBlurView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRNRealTimeBlurView.m; sourceTree = "<group>"; };
-		78F925671B5FA36700251C25 /* UIImage+BoxBlur.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+BoxBlur.h"; sourceTree = "<group>"; };
-		78F925681B5FA36700251C25 /* UIImage+BoxBlur.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+BoxBlur.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -207,6 +206,17 @@
 				781785EF1B3AB9450006C098 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		78AF67A41B66319400EF720C /* DRNRealTimeBlur */ = {
+			isa = PBXGroup;
+			children = (
+				78AF67A51B66319400EF720C /* DRNRealTimeBlurView.h */,
+				78AF67A61B66319400EF720C /* DRNRealTimeBlurView.m */,
+				78AF67A71B66319400EF720C /* UIImage+BoxBlur.h */,
+				78AF67A81B66319400EF720C /* UIImage+BoxBlur.m */,
+			);
+			path = DRNRealTimeBlur;
 			sourceTree = "<group>";
 		};
 		78F924601B5F76BF00251C25 /* Tool */ = {
@@ -295,7 +305,7 @@
 		78F9251D1B5F82E600251C25 /* Lib */ = {
 			isa = PBXGroup;
 			children = (
-				78F925641B5FA36700251C25 /* DRNRealTimeBlur */,
+				78AF67A41B66319400EF720C /* DRNRealTimeBlur */,
 				78F9251E1B5F82E600251C25 /* Colours */,
 				78F925211B5F82E600251C25 /* HJWExtension */,
 			);
@@ -378,17 +388,6 @@
 			path = Home/View;
 			sourceTree = "<group>";
 		};
-		78F925641B5FA36700251C25 /* DRNRealTimeBlur */ = {
-			isa = PBXGroup;
-			children = (
-				78F925651B5FA36700251C25 /* DRNRealTimeBlurView.h */,
-				78F925661B5FA36700251C25 /* DRNRealTimeBlurView.m */,
-				78F925671B5FA36700251C25 /* UIImage+BoxBlur.h */,
-				78F925681B5FA36700251C25 /* UIImage+BoxBlur.m */,
-			);
-			path = DRNRealTimeBlur;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -415,7 +414,7 @@
 		781785C91B3AB9440006C098 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0630;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = SaiDicaprio;
 				TargetAttributes = {
 					781785D01B3AB9450006C098 = {
@@ -467,7 +466,6 @@
 				78F924ED1B5F7F2700251C25 /* 传奇.lrc in Resources */,
 				78F924F11B5F7F2700251C25 /* 泡沫.lrc in Resources */,
 				78F924F71B5F7F2700251C25 /* 传奇.mp3 in Resources */,
-				78F924FB1B5F7F2700251C25 /* 泡沫.mp3 in Resources */,
 				781785E21B3AB9450006C098 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -495,13 +493,13 @@
 				78F9253D1B5F82E600251C25 /* HJWType.m in Sources */,
 				78F925511B5F999100251C25 /* Music.m in Sources */,
 				78F925371B5F82E600251C25 /* Colours.m in Sources */,
-				78F925691B5FA36700251C25 /* DRNRealTimeBlurView.m in Sources */,
+				78AF67A91B66319400EF720C /* DRNRealTimeBlurView.m in Sources */,
 				78F9253B1B5F82E600251C25 /* HJWMember.m in Sources */,
 				78F925521B5F999100251C25 /* MusicCell.m in Sources */,
 				78F9254E1B5F999100251C25 /* MusicViewController.m in Sources */,
 				78F925381B5F82E600251C25 /* HJWArgument.m in Sources */,
 				78F9253E1B5F82E600251C25 /* HJWTypeEncoding.m in Sources */,
-				78F9256A1B5FA36700251C25 /* UIImage+BoxBlur.m in Sources */,
+				78AF67AA1B66319400EF720C /* UIImage+BoxBlur.m in Sources */,
 				78F925551B5F9AF000251C25 /* MusicTool.m in Sources */,
 				78F924F61B5F7F2700251C25 /* main.m in Sources */,
 				78F924631B5F76BF00251C25 /* AudioTool.m in Sources */,
@@ -533,6 +531,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -603,6 +602,7 @@
 				INFOPLIST_FILE = "酷狗音乐/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bestcake.003;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -615,6 +615,7 @@
 				INFOPLIST_FILE = "酷狗音乐/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bestcake.003;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

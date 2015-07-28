@@ -71,7 +71,7 @@
     self.view.hidden = NO;
     [window addSubview:self.view];
     
-    // 2.如果换了歌曲
+    // 2.如果换了歌曲(检测是否换了歌)
     if (self.playingMusic != [MusicTool playingMusic]) {
         [self resetPlayingMusic];
     }
@@ -95,7 +95,7 @@
     
     [self removeCurrentTimeTimer];
     
-    // 保证定时器的工作是及时的
+    // 保证定时器的工作是及时的（如果不执行刚进去滑块的Slider为空白）
     [self updateCurrentTime];
     
     self.currentTimeTimer = [NSTimer scheduledTimerWithTimeInterval:1.0 target:self selector:@selector(updateCurrentTime) userInfo:nil repeats:YES];
@@ -121,7 +121,7 @@
     self.slider.x = sliderMaxX * progress;
     [self.slider setTitle:[self strWithTime:self.player.currentTime] forState:UIControlStateNormal];
     
-    // 3.设置进度条的宽度
+    // 3.设置进度条的宽度（跟着滑块位置一起动）
     self.progressView.width = self.slider.center.x;
 }
 
@@ -358,12 +358,12 @@
 
 - (IBAction)panSlider:(UIPanGestureRecognizer *)sender {
     // 获得挪动的距离
-    CGPoint t = [sender translationInView:sender.view];
+    CGPoint translationPoint = [sender translationInView:sender.view];
     [sender setTranslation:CGPointZero inView:sender.view];
     
     // 控制滑块和进度条的frame
     CGFloat sliderMaxX = self.view.width - self.slider.width;
-    self.slider.x += t.x;
+    self.slider.x += translationPoint.x;
     if (self.slider.x < 0) {
         self.slider.x = 0;
     } else if (self.slider.x > sliderMaxX) {

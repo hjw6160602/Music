@@ -5,9 +5,13 @@
 //  Created by SaiDicaprio on 15/7/22.
 //  Copyright (c) 2015年 SaiDicaprio. All rights reserved.
 //
-//  管理音乐数据（音乐模型）
+
+/**
+ * 管理音乐数据（音乐模型）
+ */
 
 #import <Foundation/Foundation.h>
+
 @class Music;
 
 @interface MusicTool : NSObject
